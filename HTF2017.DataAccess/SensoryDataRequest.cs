@@ -10,7 +10,7 @@ namespace HTF2017.DataAccess
 
         public Boolean Location { get; set; }
 
-        public Boolean Croud { get; set; }
+        public Boolean Crowd { get; set; }
 
         public Boolean Mood { get; set; }
 
@@ -19,6 +19,8 @@ namespace HTF2017.DataAccess
         public DateTime TimeStamp { get; set; }
 
         public Boolean Fulfilled { get; set; }
+
+        public Boolean AutonomousRequest { get; set; }
 
         public Guid AndroidId { get; set; }
 
